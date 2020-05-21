@@ -1,0 +1,33 @@
+.navBar nav{
+    display: flex;
+    .flex-layout(center, center);
+    width: 100%;
+    background: @darkOrange;
+    padding: 10px;
+}
+.navBar nav a{
+    color: @black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.navBar nav a:hover{
+    text-transform: uppercase;
+    
+}
+
+@media @mobile{
+    .navBar nav{
+        display: flex;
+        .flex-layout(center, center);
+        width: 100%;
+        background: @darkOrange;
+        padding: 10px;
+    }
+    .navBar nav a{
+        color: @black;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
