@@ -85,16 +85,20 @@ body {
   .container img {
     display: none;
   }
-  .container h1 {
-    text-align: center;
+  .contact-form h1 {
+    text-align: right;
+    font-size: 2.2rem;
+    padding: 10px;
+    margin: 0 0 20 0px;
   }
   .contact-form input {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
     background: #FFFFFF;
+    width: 60vw;
     margin: 10px;
+    padding: 10px;
   }
   .contact-form .submit {
     background: #BDBDBD;
@@ -103,7 +107,7 @@ body {
     font-size: 1em;
     color: #1B1A1A;
     border-radius: 5px;
-    width: 110%;
+    width: 65vw;
     padding: 8px;
   }
 }
