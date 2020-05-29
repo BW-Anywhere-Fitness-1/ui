@@ -65,9 +65,9 @@
 
 .browse {
   position: absolute;
-  margin-top: 7%;
+  margin-top: 5%;
   margin-left: 2%;
-  width: 40%;
+  width: 45%;
   z-index: 1;
 
   @media @1200 {
@@ -82,16 +82,19 @@
     width: 90%;
   }
   h1 {
-    font-size: 7rem;
+    font-size: 6rem;
     margin-bottom: 2%;
     @media @1200 {
-      font-size: 6rem;
+      font-size: 4.5rem;
     }
     @media @700 {
-      font-size: 3.5rem;
+      font-size: 3rem;
     }
     @media @500 {
       font-size: 2.5rem;
+    }
+    @media @360 {
+      font-size: 2rem;
     }
   }
   p {
@@ -101,16 +104,26 @@
     line-height: 2.5rem;
     font-size: 2rem;
     word-spacing: 0.7rem;
+
+    @media @1200 {
+      font-size: 1.5rem;
+      word-spacing: 0.4rem;
+      line-height: 2rem;
+    }
     @media @700 {
       font-size: 1.25rem;
-      word-spacing: 0.15rem;
-      line-height: 1.75rem;
+      word-spacing: 0.1rem;
+      line-height: 1.25rem;
     }
     @media @500 {
-      width: 75%;
       font-size: 1rem;
       word-spacing: 0.1rem;
       line-height: 1.5rem;
+    }
+    @media @360 {
+      font-size: 1em;
+      word-spacing: 0.1rem;
+      line-height: 1rem;
     }
   }
 }
@@ -137,8 +150,14 @@
     border-radius: 10px;
     transition: ease-in-out 0.4s;
 
+    @media @700 {
+      font-size: 1.7rem;
+    }
     @media @500 {
-      font-size: 1.4rem;
+      font-size: 1.2rem;
+    }
+    @media @360 {
+      font-size: 1rem;
     }
   }
   :hover {
@@ -148,9 +167,14 @@
 
 .background {
   width: 100%;
-  height: 70vh;
+  height: 67vh;
   opacity: 0.75;
 
+  @media @1200 {
+    max-width: 100%;
+    max-height: 63vh;
+    height: auto;
+  }
   @media @700 {
     max-width: 100%;
     height: auto;
